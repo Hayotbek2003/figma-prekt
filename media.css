@@ -1,0 +1,99 @@
+@media  (max-width:1260px) {
+    .box div{
+        width: 440px;
+        height: 500px;
+        padding: 30px;
+     }
+}
+@media  (max-width:1023px) {
+    .bar{
+        display: block;
+    }
+    nav ul{
+        display: none;
+    }
+    .box div{
+        width: 350px;
+        height: 400px;
+        padding: 25px;
+     }
+     .btn{
+        width: 120px;
+        height: 35px;   
+    }
+    .btn i{
+        width: 25px;
+        height: 25px;
+    }
+    .box div p{
+       margin: 10px 0 20px 0;
+    }
+    .section4 img{
+        width:500px;
+        height: 100%;
+    }
+}
+@media  (max-width:810px) {
+    .box div{
+        width: 320px;
+        height: 390px;
+        padding: 30px;
+     }
+     .series2{
+        width: 308px;
+        height: 50px;
+         
+    }
+}
+@media  (max-width:540px) {
+    .frame img{
+        width: 200px;
+    }
+    .section1 h1{
+      font-size: 40px;
+    }
+    .section4{
+    flex-direction: column;
+    padding: 50px 7%;
+    }
+    .section4 img{
+        margin-top: 50px ;
+        max-width: 350px;
+    }
+    .series2{
+        
+         margin:30px 0  0 0 ;
+    }
+}
+@media  (max-width:400px) {
+    .box div{
+        width: 250px;
+        height: 400px;
+        padding: 15px;
+     }
+     .section4 img{
+        max-width: 250px;
+    }
+    #box{
+        padding: 0 10%;
+    }
+    #box h1{
+       font-size: 25px ;
+    }
+    #box p{
+        font-size: 14px;
+    
+    }
+    .section3 p{
+        width: 150px;
+        margin: 0 0 200px 0;
+    }
+    .section3 h3{
+        margin-right: 0;
+    }
+    .series2{
+        width: 208px;
+        height: 45px;
+        border-radius: 12px;
+    }
+}

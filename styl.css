@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   text-decoration: none;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ota{
+ width :1600px ;
+
+}
+section{
+   /* padding: 0 7%; */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #181818;
+    height:90px;
+    padding: 0 10%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+   margin-left: 30px;
+}
+nav ul li a{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+
+ }
+ .get{
+     width: 155px;
+    height: 42px;
+    overflow: hidden;
+
+
+ }
+ .get a{
+     width: 100%;
+     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#181818;
+    background-color: #fff;
+    border-radius: 14px;
+ }
+ .fa-bars{
+     color: #fff;
+     font-size: 30px
+ }
+ .bar{
+     display: none;
+ }
+
+
+
+
+
+
+
+.section1{
+    background-image: url("./img/section\ 1\ background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+       height: 716px;
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-end;
+       align-items: center;
+       color: #fff;
+       padding: 46px 50px ;
+}
+.section1 p{
+    max-width:580px ;
+    font-size: 14px;
+    margin: 18px 0 13px 0;
+    
+}
+.section1 h1{
+    font-size: 54px;
+    
+}
+.frame{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+
+
+
+
+
+
+
+
+.section2{
+    background-color: #000000;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    padding:100px 0 100px 0;
+}
+.box{
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+}
+.box div{
+   width: 576px;
+   height: 600px;
+   margin: 8px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: flex-start;
+   padding: 30px;
+}
+.card1{
+    background-image: url("./img/card\ 1\ image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card2{
+    background-image: url("./img/card\ 2\ image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card3{
+    background-image: url("./img/card\ 3\ image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card4{
+    background-image: url("./img/card\ 4\ image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #000000;
+    width: 143px;
+    height: 42px;
+    border-radius: 14px;
+    background-color: #fff;
+    margin: 0 5px;
+}
+.btn i{
+    
+   
+    width: 32px;
+    height: 32px;
+    border-radius: 14px;
+    background-color:#000000;
+    margin: 0 5px;
+}
+.box div h3{ 
+    margin: 0;
+
+}
+.box div p{
+   margin: 10px 0 20px 0;
+}
+.section2 h1{
+    font-size: 40px;
+    margin: 16px 0;
+}
+.section2 h3{
+    font-size: 23px;
+    margin: 0 0 42px 0;
+
+}
+
+
+
+
+
+
+.section3{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url("./img/section\ 3\ background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:  40px 62px;
+    color: #fff;
+    
+}
+.section3 p{
+    width: 298px;
+    height: 60px;
+    margin: 0 0 200px 0;
+}
+.section3 h3{
+    margin-right: 140px;
+}
+
+
+
+
+
+.section4{
+    padding-left: 7%;
+background-color: #000000;
+color: #fff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#box{
+    max-width: 500px;
+    margin: 0 20px;
+}
+#box h1{
+
+}
+#box p{
+    margin: 7px 0 20px 0;
+
+}
+.section4 img{
+    width: 50%;
+    height: 100%;
+}
+
+
+
+
+
+
+.s5{
+    background-image: url("./img/section\ 5\ background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.section6{
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+   
+    padding: 113px 7% 140px 7%;
+}
+.section6 h3{
+    margin: 15px 0 82px 0;
+}
+#cards{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#cards img{
+    margin: 30px 20px;
+}
+
+
+
+
+.s7{
+    background-image: url("./img/section\ 7\ bac.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+.section8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 114px 7% 105px 7%;
+    background-color: #000000;
+    color: #fff;
+}
+.section8 h1 {
+  font-size: 45px;
+  max-width: 571px;
+}
+.section8  h3 {
+   margin: 15px 0 22px 0;
+}
+
+
+
+
+
+
+footer{
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    padding: 104px 7%;
+    /* height: 625px; */
+    color: #fff;
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+#card{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px;
+}
+#card a{
+    margin-top: 8px;
+    color: #fff;
+}
+.text p{
+    width: 300px;
+}
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 0;
+}
+.series2{
+    width: 458px;
+    height: 52px;
+    border-radius: 12px;
+    background-color: #fff;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     /* margin:30px 0  0 0 ; */
+}
+.series1 p{
+    margin: 20px 10px 0 0;
+}
+.blackbtn{
+    width: 63px;
+    height: 30px;
+    border-radius: 11px;
+    background-color: #000000;
+    margin-right: 20px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+}
+.end p{
+    margin-top: 20px;
+}
+.fa-brands{
+  margin-left: 20px;
+  margin-top: 20px ;
+  font-size: 25px;
+}
+
+
